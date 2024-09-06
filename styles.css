@@ -4,7 +4,9 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: cadetblue;/* Cor de fundo da página */
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -13,11 +15,41 @@ body {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.ong {
+    background: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30%;
+}
+
+.ong img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    .ong {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ong img {
+        margin-bottom: 10px;
+    }
+}
 
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -163,4 +195,34 @@ footer {
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
+}
+
+.menu-lateral {
+    position: fixed; /* Fixa o menu na tela */
+    top: 0; /* Alinha o menu ao topo */
+    right: 0; /* Posiciona o menu à direita */
+    width: 200px; /* Largura do menu */
+    height: 100%; /* Ocupa toda a altura da página */
+    background-color: #ddd; /* Cor de fundo */
+    padding-top: 20px; /* Espaçamento no topo */
+    z-index: 1000; /* Garante que o menu esteja na frente do conteúdo */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.menu-lateral a {
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #45474B; /* Cor do texto */
+
+    display: block;
+}
+
+.menu-lateral a:hover {
+    background-color: #1f354b; /* Cor de fundo no hover */
+    color: #f5f7f8; /* Cor do texto no hover */
+    border-radius: 15px;
 }

@@ -7,21 +7,37 @@
     <title>Adote um amigo</title>
 </head>
 <body>
-    <header>
-       <h1>Adote um amigo</h1>
-    </header>
+    <!-- Menu lateral -->
+    <div class="menu-lateral">
+        <a href="index.html">Página inicial</a>
+        <a href="../ONGsCadastradas/ABACG.html">ABACG</a>
+        <a href="../ONGsCadastradas/AbrigoSaoFrancisco.html">Abrigo São Francisco</a>
+        <a href="../ONGsCadastradas/acaoanimalpb.html">Acao Animal PB</a>
+        <a href="../ONGsCadastradas/AmigosDosAnimaisPB.html">Amigos dos Animais PB</a>
+        <a href="../ONGsCadastradas/InstitutoAnimaisEVida.html">Instituto Animais e Vida</a>
+        <a href="../ONGsCadastradas/InstitutoProtetorAnimal.html">Instituto Protetor Animal</a>
+        <a href="../ONGsCadastradas/PAJP.html">Protetores de Animais de JP</a>
+        <a href="../ONGsCadastradas/ProjetoAnimaisCarentes.html">Projeto Animais Carentes</a>
+        <a href="../ONGsCadastradas/ProjetoResgateAnimalParaiba.html">Projeto Resgate Animal Paraiba</a>
+        <a href="../ONGsCadastradas/SOSAnimaisPB.html">SOS Animais PB</a>
+    </div>
     <main>
-        <section>
-            <input type="text" placeholder="Digite o nome da ONG">
+        <section class="ong">
+            <header>
+                <h1>Adote um amigo</h1>
+            </header>
+            <input type="text" placeholder="Digite o nome da ONG" id = "campo-pesquisa">
             <button onclick="pesquisar()">Pesquisar</button>
         </section>
-        <section id = "resultados-pesquisa" class="resultados-pesquisa"> 
-        </section>
+
+        <section id="resultados-pesquisa" class="resultados-pesquisa"></section>
     </main>
+
     <footer>
         <p>2024 - Adote um amigo. Todos os direitos reservados</p>
         <p>Entre em contato pelo email: adoteumamigo@adote.com.br</p>
     </footer>
+    
     <script src="dados.js"></script>
     <script src="app.js"></script>
 </body>

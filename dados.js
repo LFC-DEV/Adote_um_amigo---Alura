@@ -1,40 +1,72 @@
-
 let ONGsNordeste = [
     {
-        nome: "Patas Peludas",
-        descricao: "ONG dedicada ao resgate e adoção de cães e gatos em situação de rua na cidade de Recife. Realizam castrações, vacinações e oferecem cuidados veterinários.",
-        link: "https://www.instagram.com/pataspeludasrecife/",
-        site: "/ONGsCadastradas/PatasPeludas.html"
+        nome: "SOS Animais PB",
+        descricao: "A SOS Animais PB trabalha no resgate, reabilitação e adoção de animais abandonados. Realizam campanhas de conscientização e promovem eventos para arrecadar fundos e proporcionar melhores condições para os animais resgatados.",
+        link: "https://www.instagram.com/sosanimaispb/",
+        site: "/ONGsCadastradas/SOSAnimaisPB.html",
+        tags: "resgate, adoção, conscientização, arrecadação, SOS PB"
     },
     {
-        nome: "Anjos de Quatro Patas",
-        descricao: "ONG localizada em Fortaleza que busca promover o bem-estar animal através de ações de resgate, adoção responsável e conscientização da população.",
-        link: "https://www.facebook.com/anjosdequatropatasfortaleza/",
-        site: "/ONGsCadastradas/AnjosdeQuatroPatas.html"
+        nome: "Projeto Animais Carentes",
+        descricao: "O Projeto Animais Carentes oferece abrigo, tratamento e adoção para animais em situação de vulnerabilidade. Focam em castração e controle de população animal através de campanhas educativas.",
+        link: "https://www.instagram.com/projetoanimaiscarentes/",
+        site: "/ONGsCadastradas/ProjetoAnimaisCarentes.html",
+        tags: "abrigo, adoção, tratamento, castração, animais vulneráveis"
     },
     {
-        nome: "Vida Animal",
-        descricao: "Associação que atua em Salvador, oferecendo abrigo e cuidados para animais abandonados. Realizam campanhas de adoção e castração.",
-        link: "https://www.instagram.com/vidaanimal_salvador/",
-        site: "/ONGsCadastradas/VidaAnimal.html"
+        nome: "Ação Animal PB",
+        descricao: "A Ação Animal PB promove a proteção animal por meio de resgate, abrigo e reabilitação. Além disso, realizam campanhas de vacinação e castração para animais em situação de rua.",
+        link: "https://www.instagram.com/acaoanimalpb/",
+        site: "/ONGsCadastradas/AcaoAnimalPB.html",
+        tags: "proteção, resgate, reabilitação, vacinação, castração"
     },
     {
-        nome: "Animalderua",
-        descricao: " A Associação dos Amigos dos Animais Abandonados da Paraíba-A4-PB foi fundada em fevereiro de 2004 por iniciativa de um pequeno grupo de pessoas interessadas em colaborar com a solução de um problema crônico de Campina Grande: o abandono de animais nas ruas da cidade. São milhares de cães e gatos errantes, famintos, doentes, machucados e vítimas constantes da estupidez humana. Alguns já nasceram nas ruas, mas um grande número desses animais é simplesmente abandonado pelos donos: pessoas irresponsáveis, inconseqüentes, e, principalmente, insensíveis. O abandono é a causa primeira dessa imensa população de animais que vaga nas ruas. Além da situação desses animais, que por si só já justifica uma tomada de atitude por parte dos cidadãos campinense, há a disseminação de doenças, algumas delas transmissíveis ao homem. Foi com a intenção de acabar com essa triste realidade que surgiu a A4-PB.",
-        link: "https://www.instagram.com/animalderuacg/",
-        site: "/ONGsCadastradas/AnimaldeRua.html"
+        nome: "Instituto Animais e Vida",
+        descricao: "O Instituto Animais e Vida é dedicado ao resgate e adoção de animais, além de promover a educação sobre bem-estar animal. Contam com um espaço para recuperação e tratamento de animais resgatados.",
+        link: "https://www.instagram.com/institutoanimaisvida/",
+        site: "/ONGsCadastradas/InstitutoAnimaisEVida.html",
+        tags: "resgate, adoção, educação, bem-estar animal, tratamento"
     },
     {
-        nome: "Anjos protetores",
-        descricao: "A ONG Anjos Protetores atua em Montadas realizando resgates, castrações e buscando lares para animais abandonados. Com o objetivo de promover o bem-estar animal, a ONG conta com a ajuda de voluntários e doações para continuar seu trabalho.",
-        link: "https://www.instagram.com/ong_anjos_protetores/",
-        site: "/ONGsCadastradas/AnjosProtetores.html"
+        nome: "Abrigo São Francisco",
+        descricao: "O Abrigo São Francisco oferece cuidados para animais abandonados e promove a adoção responsável. Trabalham com uma rede de voluntários e parceiros para garantir o bem-estar dos animais acolhidos.",
+        link: "https://www.instagram.com/abrigosaofrancisco/",
+        site: "/ONGsCadastradas/AbrigoSaoFrancisco.html",
+        tags: "abrigo, adoção responsável, cuidados, bem-estar animal"
     },
     {
-        nome: "Adota patos",
-        descricao:"A ONG Adota Patos é uma organização dedicada a cuidar de animais abandonados em Patos. Com ações como campanhas de adoção, castrações em massa e conscientização da população, a ONG busca reduzir o número de animais nas ruas e garantir uma vida melhor para eles.",
-        link: "https://www.instagram.com/adotapatosoficial/",
-        site: "/ONGsCadastradas/AdotaPatos.html"
+        nome: "Amigos dos Animais PB",
+        descricao: "Amigos dos Animais PB realiza resgates, castrações e adoções de animais. Também promovem campanhas de vacinação e eventos para arrecadar fundos e aumentar a conscientização sobre o bem-estar animal.",
+        link: "https://www.instagram.com/amigosdosanimaispb/",
+        site: "/ONGsCadastradas/AmigosDosAnimaisPB.html",
+        tags: "resgate, castração, adoção, vacinação, conscientização"
     },
-    
-  ];
+    {
+        nome: "Protetores de Animais de João Pessoa (PAJP)",
+        descricao: "PAJP é uma organização que atua no resgate, reabilitação e adoção de animais abandonados. Eles também realizam campanhas educativas sobre cuidados e respeito aos animais.",
+        link: "https://www.instagram.com/pajp_oficial/",
+        site: "/ONGsCadastradas/PAJP.html",
+        tags: "resgate, reabilitação, adoção, educação, respeito animal"
+    },
+    {
+        nome: "Associação para o Bem-Estar Animal de Campina Grande (ABACG)",
+        descricao: "ABACG oferece abrigo e cuidados para animais resgatados, além de promover campanhas de conscientização e eventos para arrecadação de fundos para a causa animal.",
+        link: "https://www.instagram.com/abacg_oficial/",
+        site: "/ONGsCadastradas/ABACG.html",
+        tags: "bem-estar animal, abrigo, resgate, conscientização, arrecadação"
+    },
+    {
+        nome: "Projeto Resgate Animal Paraíba",
+        descricao: "O Projeto Resgate Animal Paraíba foca no resgate de animais em situação de risco e na promoção de adoção responsável. Trabalham também com campanhas de castração e vacinação.",
+        link: "https://www.instagram.com/projetoresgatepb/",
+        site: "/ONGsCadastradas/ProjetoResgateAnimalParaiba.html",
+        tags: "resgate, adoção responsável, castração, vacinação, animais em risco"
+    },
+    {
+        nome: "Instituto Protetor Animal",
+        descricao: "Instituto Protetor Animal realiza atividades de resgate, abrigo e cuidados para animais abandonados, além de promover campanhas educativas e eventos de arrecadação.",
+        link: "https://www.instagram.com/institutoprotectoranimal/",
+        site: "/ONGsCadastradas/InstitutoProtetorAnimal.html",
+        tags: "resgate, abrigo, cuidados, educação, arrecadação"
+    }
+];
