@@ -2,7 +2,7 @@ let ONGsNordeste = [
     {
         nome: "SOS Animais PB",
         descricao: "A SOS Animais PB trabalha no resgate, reabilitação e adoção de animais abandonados. Realizam campanhas de conscientização e promovem eventos para arrecadar fundos e proporcionar melhores condições para os animais resgatados.",
-        link: "https://www.instagram.com/sosanimaispb/",
+        link: "https://www.instagram.com/sosanimaiseplantas/",
         site: "/ONGsCadastradas/SOSAnimaisPB.html",
         tags: "resgate, adoção, conscientização, arrecadação, SOS PB"
     },
