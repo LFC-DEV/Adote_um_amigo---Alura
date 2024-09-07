@@ -15,6 +15,25 @@ body {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
+/* Esconder o menu lateral por padrão em telas pequenas */
+@media (max-width: 768px) {
+    .menu-lateral {
+        position: absolute;
+        width: 0;
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+
+    .menu-lateral.aberto {
+        width: 250px; /* ou o valor que deseja */
+    }
+
+    /* Ajuste o conteúdo principal para ocupar a tela toda */
+    .conteudo-principal {
+        margin-left: 0;
+    }
+}
+
 .container {
     width: 80%;
     margin: auto;
