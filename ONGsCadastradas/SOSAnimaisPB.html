@@ -8,33 +8,28 @@
 </head>
 <body>
     <main>
-        <div class="menu-lateral">
+        <button id="menu-toggle" class="menu-toggle">&#9776; Menu</button>
+        <div class="menu-lateral" id = "menu-lateral">
             <a href="../index.html">Página inicial</a>
             <a href="ABACG.html">ABACG</a>
-            <a href="AbrigoSaoFrancisco.html">Abrigo São Francisco</a>
-            <a href="acaoanimalpb.html">Acao Animal PB</a>
-            <a href="AmigosDosAnimaisPB.html">Amigos dos Animais PB</a>
-            <a href="InstitutoAnimaisEVida.html">Instituto Animais e Vida</a>
             <a href="InstitutoProtetorAnimal.html">Instituto Protetor Animal</a>
-            <a href="PAJP.html">Protetores de Animais de JP</a>
-            <a href="ProjetoAnimaisCarentes.html">Projeto Animais Carentes</a>
-            <a href="ProjetoResgateAnimalParaiba.html">Projeto Resgate Animal Paraiba</a>
             <a href="SOSAnimaisPB.html">SOS Animais PB</a>
         </div>
     
         <section class="ong">
-            <img src="../animalderua.jpg" alt="Foto da ONG">
+            <img src="../SOS.jpg" alt="Foto da ONG">
             <div class="info">
-                <h2>SOS Animais PB</h2>
+                <h2>SOS Amigo dos Animais PB</h2>
                 <p><strong>Localização / Endereço:</strong> Rua João Pessoa, 123, Centro, João Pessoa - PB, 58000-000</p>
-                <p><strong>CNPJ:</strong>89.XXX.XX5/XXXX-XX</p>
-                <p><strong>Pix ou Conta para Doação:</strong> Pix chave: exemplo@pix.com.br</p>
+                <p><strong>CNPJ:</strong>xx.XXX.XXx/XXXX-XX</p>
+                <p><strong>Pix ou Conta para Doação:</strong>sosamigodosanimais@gmail.com</p>
                 <p><strong>Descrição:</strong> A SOS Animais PB trabalha no resgate, reabilitação e adoção de animais abandonados. Realizam campanhas de conscientização e promovem eventos para arrecadar fundos e proporcionar melhores condições para os animais resgatados.</p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/sosamigodosanimais/">https://www.instagram.com/sosamigodosanimais/</a></p>
             </div>
         </section>
         
         <section>
-            <input type="text" placeholder="Digite o nome da ONG">
+            <input type="text" placeholder="Digite o nome da ONG" id = "campo-pesquisa">
              <button onclick="pesquisar()">Pesquisar</button>
         </section>
         <section id = "resultados-pesquisa" class="resultados-pesquisa"> 

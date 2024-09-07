@@ -7,19 +7,13 @@
     <title>Adote um amigo</title>
 </head>
 <body>
+    <button id="menu-toggle" class="menu-toggle">&#9776; Menu</button>
     <!-- Menu lateral -->
-    <button id="toggle-menu">Menu</button>
-    <div class="menu-lateral">
+    <div class="menu-lateral" id = "menu-lateral">
+        
         <a href="index.html">Página inicial</a>
         <a href="../ONGsCadastradas/ABACG.html">ABACG</a>
-        <a href="../ONGsCadastradas/AbrigoSaoFrancisco.html">Abrigo São Francisco</a>
-        <a href="../ONGsCadastradas/acaoanimalpb.html">Acao Animal PB</a>
-        <a href="../ONGsCadastradas/AmigosDosAnimaisPB.html">Amigos dos Animais PB</a>
-        <a href="../ONGsCadastradas/InstitutoAnimaisEVida.html">Instituto Animais e Vida</a>
         <a href="../ONGsCadastradas/InstitutoProtetorAnimal.html">Instituto Protetor Animal</a>
-        <a href="../ONGsCadastradas/PAJP.html">Protetores de Animais de JP</a>
-        <a href="../ONGsCadastradas/ProjetoAnimaisCarentes.html">Projeto Animais Carentes</a>
-        <a href="../ONGsCadastradas/ProjetoResgateAnimalParaiba.html">Projeto Resgate Animal Paraiba</a>
         <a href="../ONGsCadastradas/SOSAnimaisPB.html">SOS Animais PB</a>
     </div>
     <main>
@@ -29,9 +23,18 @@
             </header>
             <input type="text" placeholder="Digite o nome da ONG" id = "campo-pesquisa">
             <button onclick="pesquisar()">Pesquisar</button>
-        </section>
 
-        <section id="resultados-pesquisa" class="resultados-pesquisa"></section>
+            <div class = "info">
+                <h2>Sobre nós:</h2>
+                <a>O Adote um Amigo é um site dedicado a reunir ONGs de adoção e resgate de animais, oferecendo uma plataforma simples para que pessoas interessadas possam encontrar e se conectar com organizações que atuam na causa animal. O projeto visa facilitar a adoção de animais, assim como divulgar o trabalho de ONGs e abrigos, promovendo a conscientização e o apoio à causa animal.</a>
+                <h2>Autor:</h2>
+                <a>Luiz Felipe Carvalho</a>
+            </div>
+         
+
+        </section>
+        <section id="resultados-pesquisa" class="resultados-pesquisa">
+        </section>
     </main>
 
     <footer>

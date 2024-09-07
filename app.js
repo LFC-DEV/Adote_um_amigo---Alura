@@ -1,10 +1,8 @@
-const btnMenu = document.getElementById('toggle-menu');
-const menuLateral = document.querySelector('.menu-lateral');
-
-btnMenu.addEventListener('click', () => {
-    menuLateral.classList.toggle('aberto');
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    console.log('botão de menu clicado');
+    const menu = document.getElementById('menu-lateral');
+    menu.classList.toggle('aberto'); // Alterna a classe "aberto" para abrir/fechar o menu
 });
-
 
 
 function pesquisar() {
@@ -32,13 +30,15 @@ function pesquisar() {
         titulo = ong.nome.toLowerCase()
         descricao = ong.descricao.toLowerCase()
         tags = ong.tags.toLowerCase()
+        site = ong.site.toLowerCase()
+        link = ong.link.toLowerCase()
         // se titulo includes campoPesquisa
-        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
+        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa) || site.includes(campoPesquisa) || link.includes(campoPesquisa)) {
             // cria um novo elemento
             resultados += `
             <div class="item-resultado">
                 <h2>
-                    <a href="#" target="_blank">${ong.nome}</a>
+                    <a href=${ong.site}>${ong.nome}</a>
                 </h2>
                 <p class="descricao-meta">${ong.descricao}</p>
                 <a href=${ong.link} target="_blank">Mais informações</a>
