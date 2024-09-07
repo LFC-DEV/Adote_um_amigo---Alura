@@ -1,3 +1,12 @@
+const btnMenu = document.getElementById('toggle-menu');
+const menuLateral = document.querySelector('.menu-lateral');
+
+btnMenu.addEventListener('click', () => {
+    menuLateral.classList.toggle('aberto');
+});
+
+
+
 function pesquisar() {
     // Obtém a seção HTML onde os resultados serão exibidos
     let section = document.getElementById("resultados-pesquisa");
